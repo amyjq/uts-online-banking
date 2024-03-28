@@ -13,11 +13,11 @@ public class Account {
     Scanner scanner = new Scanner(System.in);
     private Profile userProfile;
     private double accountBalance;
-    private ArrayList<Transaction> transactions = new ArrayList<Transaction>();
+    private ArrayList<Transaction> transactions = new ArrayList<>();
     /**
      * The Months.
      */
-    String months[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September",
+    String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September",
             "October", "November", "December"};
 
     /**
